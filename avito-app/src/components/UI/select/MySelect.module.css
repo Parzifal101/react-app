@@ -1,0 +1,25 @@
+.mySelect {
+    height: 48px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    background-color: #fff;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 6px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.myOption {
+    height: 48px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    background-color: #fff;
+    padding: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 470px) {
+    .mySelect {
+        width: 50%;
+    }
+}

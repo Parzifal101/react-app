@@ -1,0 +1,13 @@
+.myBtn {
+    height: 48px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 16px;
+    background: #00AAFF;
+    border-radius: 6px;
+    border: 2px solid #00AAFF;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-left: 6%;
+}

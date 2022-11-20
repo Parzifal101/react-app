@@ -1,0 +1,50 @@
+.nav {
+    /* background-color: aqua; */
+    height: 64px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 8px 12px -2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 8px 12px -2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 8px 12px -2px rgba(34, 60, 80, 0.2);
+    background-color: #fff;
+}
+
+.logoWrapper {
+    width: 95px;
+    height: 64px;
+    margin-left: 10%;
+    background: url(./static/avito.jpg) no-repeat;
+    background-size: contain;
+}
+
+.linksWrapper {
+    width: 60%;
+    margin-left: 2%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 4%;
+    transition: all 1s ease-in;
+}
+
+.link:hover {
+    border-bottom: 1px solid blue;
+}
+
+@media screen and (max-width: 470px) {
+    .linksWrapper {
+        width: 28%;
+        margin-left: 28%;
+    }
+    .link {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        margin-left: 12%;
+        transition: all 1s ease-in;
+    }
+}

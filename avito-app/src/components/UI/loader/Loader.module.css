@@ -1,0 +1,31 @@
+.loader__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loader {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    border: 3px dashed teal;
+    animation: loaderAnim 2s infinite linear;
+    margin-top: 2%;
+}
+
+
+/* #active {
+    display: flex;
+    animation: loaderAnim 1s infinite linear;
+} */
+
+@keyframes loaderAnim {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
